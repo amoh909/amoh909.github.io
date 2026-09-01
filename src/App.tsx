@@ -62,6 +62,107 @@ function App() {
             <a href="mailto:ali2moh.04@gmail.com">Email ↗</a>
           </div>
         </section>
+
+        <section id="projects" className="section">
+          <div className="section-heading">
+            <p className="section-label">SELECTED WORK</p>
+            <h2>Featured Projects</h2>
+          </div>
+
+          <div className="projects-grid">
+            <article className="project-card">
+              <div>
+                <p className="project-number">01</p>
+
+                <h3>CUDA Sparse Triangular Solver</h3>
+
+                <p>
+                  GPU-accelerated sparse triangular system solving using CUDA,
+                  with a focus on parallel algorithms and performance
+                  optimization.
+                </p>
+              </div>
+
+              <div className="project-footer">
+                <span>C++ · CUDA · GPU Computing</span>
+                <a href="https://drive.google.com/file/d/1L9WFoNtrKNnxXI4ZBROpEWr4vSroxkT1/view?usp=drive_link">
+                  Report ↗
+                </a>
+              </div>
+            </article>
+
+            <article className="project-card">
+              <div>
+                <p className="project-number">02</p>
+
+                <h3>Brain Tumor Segmentation</h3>
+
+                <p>
+                  Deep learning project using a U-Net architecture to segment
+                  brain tumors from medical imaging data.
+                </p>
+              </div>
+
+              <div className="project-footer">
+                <span>Python · PyTorch · U-Net</span>
+                <a href="https://github.com/amoh909/Brain-Tumor-Segmentation-LGG">
+                  GitHub ↗
+                </a>
+              </div>
+            </article>
+
+            <article className="project-card">
+              <div>
+                <p className="project-number">03</p>
+                <h3>MENA EconLens</h3>
+                <p>
+                  Full-stack economic intelligence platform featuring World Bank
+                  data ingestion, normalized database schemas, and linear
+                  regression forecasting panels.
+                </p>
+              </div>
+              <div className="project-footer">
+                <span>React · Django · PostgreSQL</span>
+                <a href="https://github.com/amoh909/MENA-EconLens">GitHub ↗</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section className="section">
+          <div className="section-header">
+            <p className="section-label">EXPERIENCE</p>
+            <h2>Where I've Worked</h2>
+          </div>
+
+          <div className="experience-list">
+            <article className="experience-item">
+              <div className="experience-header">
+                <div>
+                  <h3>Frontend Developer</h3>
+                  <p className="experience-company">
+                    Ciatek IT & Software Solutions
+                  </p>
+                </div>
+
+                <span className="experience-date">Jun 2025 - Aug 2025</span>
+              </div>
+
+              <p className="experience-description">
+                Built responsive web interfaces and contributed to frontend
+                development using React, TypeScript, Tailwind CSS, and
+                shadcn/ui.
+              </p>
+
+              <div className="experience-tech">
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Tailwind CSS</span>
+                <span>shadcn/ui</span>
+              </div>
+            </article>
+          </div>
+        </section>
       </main>
     </>
   );
