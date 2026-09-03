@@ -217,6 +217,40 @@ function App() {
             </div>
           </div>
         </section>
+
+        <section id="about" className="section">
+          <div className="section-heading">
+            <p className="section-label">ABOUT ME</p>
+            <h2>A little about me</h2>
+          </div>
+
+          <div className="about-content">
+            <p>
+              I'm naturally curious and tend to find myself learning about
+              things simply because I find them interesting. In computer
+              science, I'm particularly drawn to algorithms, complexity theory,
+              theory of computation, and GPU computing. I'm also deeply
+              interested in mathematics, especially abstract algebra and number
+              theory. I particularly enjoyed working with CUDA and exploring the
+              challenges of making computations more efficient.
+            </p>
+
+            <p>
+              Outside of computer science and mathematics, I'm very interested
+              in history and Arabic, and I enjoy reading about sociology,
+              philosophy, and political philosophy. I'm usually reading or
+              learning about something new, often completely unrelated to what
+              I'm working on.
+            </p>
+
+            <p>
+              In my free time, I enjoy solving puzzles, reading/writing Arabic
+              poetry, and exploring Arabic textual scholarship and book editing
+              "التحقيق". I've also recently developed a strong interest in MMA
+              and hope to try it myself soon.
+            </p>
+          </div>
+        </section>
       </main>
     </>
   );
