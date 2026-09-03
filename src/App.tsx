@@ -75,12 +75,11 @@ function App() {
               <div>
                 <p className="project-number">01</p>
                 <p className="project-category">HIGH-PERFORMANCE COMPUTING</p>
-                <p className="project-metric">UP TO 577× SPEEDUP</p>
                 <h3>Sparse Lower Triangular Matrix Solver (CUDA)</h3>
                 <p>
                   GPU-accelerated sparse triangular system solver using CUDA,
                   exploring parallel algorithms and performance optimization for
-                  sparse linear algebra.
+                  sparse linear algebra to achieve up to a 577x speedup.
                 </p>
               </div>
 
@@ -273,6 +272,20 @@ function App() {
             <div className="education-details">
               <span>Beirut, Lebanon</span>
             </div>
+
+            <div className="education-coursework">
+              <p>Relevant Coursework</p>
+              <span>
+                Machine Learning · GPU Computing · Optimization & Non-Linear
+                Programming · Design & Analysis of Algorithms · Data Structures
+                · Theory of Computation · Operating Systems · Software
+                Engineering · Database Systems · Honors Linear Algebra I ·
+                Introduction to Analysis · Introduction to Abstract Algebra
+              </span>
+            </div>
+            <a className="coursework-link" href="/coursework">
+              View Complete Coursework →
+            </a>
           </div>
         </section>
 
