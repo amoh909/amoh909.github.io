@@ -56,6 +56,24 @@ a {
   max-width: 1100px;
   margin: 0 auto;
   padding: 140px 32px 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-photo {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 50%;
+  flex-shrink: 0;
+  transform: translateY(-20px);
 }
 
 .hero-label {
@@ -402,7 +420,17 @@ a {
   }
 
   .hero {
-    padding: 90px 24px 100px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 55px 24px 100px;
+  }
+
+  .hero-photo {
+    align-self: center;
+    width: 180px;
+    height: 180px;
+    object-position: center 35%;
   }
 
   .hero-description {

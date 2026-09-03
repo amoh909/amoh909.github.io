@@ -19,50 +19,53 @@ function App() {
 
       <main>
         <section className="hero">
-          <p className="hero-label">SOFTWARE & AI ENGINEER</p>
+          <div className="hero-content">
+            <p className="hero-label">SOFTWARE & AI ENGINEER</p>
 
-          <h1>Ali Mohsen</h1>
+            <h1>Ali Mohsen</h1>
 
-          <p className="hero-description">
-            Computer Science graduate focused on software engineering, machine
-            learning, and high-performance computing. Building systems with
-            Python, C++, CUDA, and modern web technologies.
-          </p>
+            <p className="hero-description">
+              Computer Science graduate focused on software engineering, machine
+              learning, and high-performance computing. Building systems with
+              Python, C++, CUDA, and modern web technologies.
+            </p>
 
-          <div className="hero-actions">
-            <a href="#projects" className="button primary">
-              View Projects
-            </a>
+            <div className="hero-actions">
+              <a href="#projects" className="button primary">
+                View Projects
+              </a>
 
-            <a
-              href="/Ali-Mohsen-CV.pdf"
-              className="button secondary"
-              target="_blank"
-              rel="noopener noreferer"
-            >
-              Download CV
-            </a>
+              <a
+                href="/Ali-Mohsen-CV.pdf"
+                className="button secondary"
+                target="_blank"
+                rel="noopener noreferer"
+              >
+                Download CV
+              </a>
+            </div>
+
+            <div className="hero-links">
+              <a
+                href="https://github.com/amoh909"
+                target="_blank"
+                rel="noopener noreferer"
+              >
+                GitHub ↗
+              </a>
+
+              <a
+                href="http://linkedin.com/in/alimohsen5"
+                target="_blank"
+                rel="noopener noreferer"
+              >
+                LinkedIn ↗
+              </a>
+
+              <a href="mailto:ali2moh.04@gmail.com">Email ↗</a>
+            </div>
           </div>
-
-          <div className="hero-links">
-            <a
-              href="https://github.com/amoh909"
-              target="_blank"
-              rel="noopener noreferer"
-            >
-              GitHub ↗
-            </a>
-
-            <a
-              href="http://linkedin.com/in/alimohsen5"
-              target="_blank"
-              rel="noopener noreferer"
-            >
-              LinkedIn ↗
-            </a>
-
-            <a href="mailto:ali2moh.04@gmail.com">Email ↗</a>
-          </div>
+          <img className="hero-photo" src="/prof_pic.jpg" alt="Ali Mohsen" />
         </section>
 
         <section id="projects" className="section">
