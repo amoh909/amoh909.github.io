@@ -308,7 +308,7 @@ function App() {
         <section id="skills" className="section">
           <div className="section-heading">
             <p className="section-label">SKILLS</p>
-            <h2>Technical Skills</h2>ks
+            <h2>Technical Skills</h2>
           </div>
 
           <div className="skills-list">
