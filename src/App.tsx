@@ -49,21 +49,25 @@ function App() {
               <a
                 href="https://github.com/amoh909"
                 target="_blank"
-                rel="noopener noreferer"
+                rel="noreferrer"
               >
+                <img src="/icons/github.svg" alt="" />
                 GitHub
-                <span className="external-arrow"> ↗</span>
               </a>
 
               <a
-                href="http://linkedin.com/in/alimohsen5"
+                href="https://www.linkedin.com/in/alimohsen5/"
                 target="_blank"
-                rel="noopener noreferer"
+                rel="noreferrer"
               >
-                LinkedIn ↗
+                <img src="/icons/linkedin.svg" alt="" />
+                LinkedIn
               </a>
 
-              <a href="mailto:ali2moh.04@gmail.com">Email ↗</a>
+              <a href="mailto:ali2moh.04@gmail.com">
+                <img src="/icons/email.svg" alt="" />
+                Email
+              </a>
             </div>
           </div>
           <img className="hero-photo" src="/prof_pic.jpg" alt="Ali Mohsen" />
@@ -375,22 +379,27 @@ function App() {
             </p>
 
             <div className="contact-links">
-              <a href="mailto:ali2moh.04@gmail.com">Email ↗</a>
+              <a href="mailto:ali2moh.04@gmail.com">
+                <img src="/icons/email.svg" alt="" />
+                Email
+              </a>
 
               <a
                 href="https://github.com/amoh909"
                 target="_blank"
-                rel="noopener noreferer"
+                rel="noreferrer"
               >
-                GitHub ↗
+                <img src="/icons/github.svg" alt="" />
+                GitHub
               </a>
 
               <a
-                href="http://linkedin.com/in/alimohsen5"
+                href="https://www.linkedin.com/in/alimohsen5/"
                 target="_blank"
-                rel="noopener noreferer"
+                rel="noreferrer"
               >
-                LinkedIn ↗
+                <img src="/icons/linkedin.svg" alt="" />
+                LinkedIn
               </a>
             </div>
           </div>

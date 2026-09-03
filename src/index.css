@@ -393,7 +393,16 @@ a {
 }
 
 .contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
   font-weight: 600;
+}
+
+.contact-links img {
+  width: 16px;
+  height: 16px;
+  display: block;
 }
 
 .contact-links a:hover {
@@ -611,7 +620,26 @@ a {
   }
 }
 
-.external-arrow {
-  font-family: Arial, Helvetica, sans-serif;
-  font-variant-emoji: text;
+.hero-links {
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hero-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.hero-links img {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.hero-links a:hover {
+  text-decoration: underline;
 }
