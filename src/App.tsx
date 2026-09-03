@@ -51,7 +51,8 @@ function App() {
                 target="_blank"
                 rel="noopener noreferer"
               >
-                GitHub ↗
+                GitHub
+                <span className="external-arrow"> ↗</span>
               </a>
 
               <a
