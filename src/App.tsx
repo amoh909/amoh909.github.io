@@ -75,6 +75,7 @@ function App() {
               <div>
                 <p className="project-number">01</p>
                 <p className="project-category">HIGH-PERFORMANCE COMPUTING</p>
+                <p className="project-metric">UP TO 577× SPEEDUP</p>
                 <h3>Sparse Lower Triangular Matrix Solver (CUDA)</h3>
                 <p>
                   GPU-accelerated sparse triangular system solver using CUDA,
