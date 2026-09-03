@@ -10,7 +10,8 @@ function App() {
           <a href="#projects">Projects</a>
           <a href="#experience">Experience</a>
           <a href="#education">Education</a>
-          <a href="#about">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -166,7 +167,7 @@ function App() {
           </div>
         </section>
 
-        <section className="section">
+        <section id ="experience" className="section">
           <div className="section-heading">
             <p className="section-label">EXPERIENCE</p>
             <h2>Where I've Worked</h2>
