@@ -73,6 +73,7 @@ function App() {
             <article className="project-card">
               <div>
                 <p className="project-number">01</p>
+                <p className="project-category">HIGH-PERFORMANCE COMPUTING</p>
                 <h3>Sparse Lower Triangular Matrix Solver (CUDA)</h3>
                 <p>
                   GPU-accelerated sparse triangular system solver using CUDA,
@@ -96,6 +97,7 @@ function App() {
             <article className="project-card">
               <div>
                 <p className="project-number">02</p>
+                <p className="project-category">DEEP LEARNING</p>
                 <h3>Brain Tumor Segmentation (LGG)</h3>
                 <p>
                   Deep learning project using a U-Net architecture to segment
@@ -118,6 +120,7 @@ function App() {
             <article className="project-card">
               <div>
                 <p className="project-number">03</p>
+                <p className="project-category">FULL-STACK / DATA</p>
                 <h3>MENA EconLens</h3>
                 <p>
                   Full-stack economic intelligence dashboard for exploring and
@@ -141,6 +144,7 @@ function App() {
             <article className="project-card">
               <div>
                 <p className="project-number">04</p>
+                <p className="project-category">MACHINE LEARNING</p>
                 <h3>Healthcare Provider Fraud Detection</h3>
                 <p>
                   End-to-end machine learning system for detecting potentially
