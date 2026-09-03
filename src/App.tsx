@@ -167,7 +167,7 @@ function App() {
           </div>
         </section>
 
-        <section id ="experience" className="section">
+        <section id="experience" className="section">
           <div className="section-heading">
             <p className="section-label">EXPERIENCE</p>
             <h2>Where I've Worked</h2>
@@ -377,6 +377,10 @@ function App() {
           </div>
         </section>
       </main>
+
+      <footer className="footer">
+        <p>© 2026 Ali Mohsen</p>
+      </footer>
     </>
   );
 }
