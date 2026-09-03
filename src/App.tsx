@@ -1,4 +1,11 @@
+import { useEffect } from "react";
+
 function App() {
+  useEffect(() => {
+    if (window.location.hash === "#education") {
+      document.getElementById("education")?.scrollIntoView();
+    }
+  }, []);
   return (
     <>
       <header className="navbar">
@@ -301,7 +308,7 @@ function App() {
         <section id="skills" className="section">
           <div className="section-heading">
             <p className="section-label">SKILLS</p>
-            <h2>Technical Skills</h2>
+            <h2>Technical Skills</h2>ks
           </div>
 
           <div className="skills-list">

@@ -2,7 +2,7 @@ export default function Coursework() {
   return (
     <main className="coursework-page">
       <div className="coursework-header">
-        <a href="/">← Back to Home</a>
+        <a href="/#education">← Back to Home</a>
         <p className="section-label">ACADEMIC RECORD</p>
         <h1>Coursework</h1>
         <p>
