@@ -1,32 +1,27 @@
-# React + TypeScript + Vite
+# Ali Mohsen — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio website for **Ali Mohsen**, a Computer Science graduate from the American University of Beirut, focused on software engineering, machine learning, high-performance computing, and mathematics.
 
-Currently, two official plugins are available:
+**Live website:** [amoh909.github.io](https://amoh909.github.io/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Built With
 
-## React Compiler
+- React
+- TypeScript
+- Vite
+- CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Responsive single-page portfolio
+- Projects and technical work
+- Professional experience
+- Education and complete coursework
+- Technical skills
+- About and contact sections
+- Downloadable CV
+- Dedicated coursework page
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Deployment
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+The website is deployed to GitHub Pages using GitHub Actions. Changes pushed to the `main` branch are automatically built and deployed.
