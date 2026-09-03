@@ -131,7 +131,7 @@ function App() {
               </div>
 
               <div className="project-footer">
-                <span>Python · Django · React · TypeScript</span>
+                <span>Python · Django · React · TypeScript · PostgreSQL</span>
                 <a
                   href="https://github.com/amoh909/MENA-EconLens"
                   target="_blank"
