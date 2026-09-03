@@ -13,6 +13,11 @@ body {
   color: #111111;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -385,13 +390,15 @@ a {
   .navbar {
     padding: 20px 24px;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 16px;
   }
 
   .navbar nav {
+    justify-content: center;
     flex-wrap: wrap;
     gap: 12px 20px;
+    font-size: 14px;
   }
 
   .hero {
@@ -562,4 +569,16 @@ a {
 
 .coursework-link:hover {
   text-decoration: underline;
+}
+
+.mobile-nav-break {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .mobile-nav-break {
+    display: block;
+    flex-basis: 100%;
+    height: 0;
+  }
 }
