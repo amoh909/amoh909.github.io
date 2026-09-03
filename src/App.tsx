@@ -251,6 +251,42 @@ function App() {
             </p>
           </div>
         </section>
+
+        <section id="contact" className="section contact-section">
+          <div className="section-heading">
+            <p className="section-label">CONTACT</p>
+            <h2>Let's connect.</h2>
+          </div>
+
+          <div className="contact-content">
+            <p>
+              I'm currently open to software engineering and research
+              opportunities, as well as interesting projects. If you'd like to
+              get in touch about an opportunity, a project, research, or
+              anything else, you can reach me through the links below.
+            </p>
+
+            <div className="contact-links">
+              <a href="mailto:ali2moh.04@gmail.com">Email ↗</a>
+
+              <a
+                href="https://github.com/amoh909"
+                target="_blank"
+                rel="noopener noreferer"
+              >
+                GitHub ↗
+              </a>
+
+              <a
+                href="http://linkedin.com/in/alimohsen5"
+                target="_blank"
+                rel="noopener noreferer"
+              >
+                LinkedIn ↗
+              </a>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );

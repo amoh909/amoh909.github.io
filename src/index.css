@@ -334,3 +334,33 @@ a {
 .about-content p:last-child {
   margin-bottom: 0;
 }
+
+.contact-section {
+  padding-bottom: 140px;
+}
+
+.contact-content {
+  max-width: 650px;
+}
+
+.contact-content > p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #555555;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.contact-links a {
+  font-weight: 600;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
