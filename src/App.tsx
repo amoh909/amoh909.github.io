@@ -23,9 +23,9 @@ function App() {
           <h1>Ali Mohsen</h1>
 
           <p className="hero-description">
-            Computer Science graduate building scalable software pipelines and
-            machine learning architectures. Driven by a deep interest in pure
-            mathematics and high-performance computing.
+            Computer Science graduate focused on software engineering, machine
+            learning, and high-performance computing. Building systems with
+            Python, C++, CUDA, and modern web technologies.
           </p>
 
           <div className="hero-actions">
