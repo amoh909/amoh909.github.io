@@ -130,7 +130,7 @@ function App() {
         </section>
 
         <section className="section">
-          <div className="section-header">
+          <div className="section-heading">
             <p className="section-label">EXPERIENCE</p>
             <h2>Where I've Worked</h2>
           </div>
@@ -161,6 +161,60 @@ function App() {
                 <span>shadcn/ui</span>
               </div>
             </article>
+          </div>
+        </section>
+
+        <section id="education" className="section">
+          <div className="section-heading">
+            <p className="section-label">EDUCATION</p>
+            <h2>Education</h2>
+          </div>
+
+          <div className="education-item">
+            <div className="education-header">
+              <div>
+                <h3>American University of Beirut</h3>
+                <p>B.S. in Computer Science · Minor in Mathematics</p>
+              </div>
+
+              <span>2023-2026</span>
+            </div>
+
+            <div className="education-details">
+              <span>Beirut, Lebanon</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" className="section">
+          <div className="section-heading">
+            <p className="section-label">SKILLS</p>
+            <h2>Technical Skills</h2>
+          </div>
+
+          <div className="skills-list">
+            <div className="skill-group">
+              <h3>Languages</h3>
+              <p>Python · C++ · C · Java · JavaScript · TypeScript · SQL</p>
+            </div>
+
+            <div className="skill-group">
+              <h3>Frameworks & Libraries</h3>
+              <p>
+                React · Node.js · Spring Boot · Django · PyTorch · TensorFlow ·
+                Scikit-learn
+              </p>
+            </div>
+
+            <div className="skill-group">
+              <h3>Systems & Computing</h3>
+              <p>CUDA · GPU Computing · Parallel Computing · Linux</p>
+            </div>
+
+            <div className="skill-group">
+              <h3>Tools & Cloud</h3>
+              <p>Git · GitHub · AWS · Docker</p>
+            </div>
           </div>
         </section>
       </main>
