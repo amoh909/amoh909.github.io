@@ -73,20 +73,22 @@ function App() {
             <article className="project-card">
               <div>
                 <p className="project-number">01</p>
-
-                <h3>CUDA Sparse Triangular Solver</h3>
-
+                <h3>Sparse Lower Triangular Matrix Solver (CUDA)</h3>
                 <p>
-                  GPU-accelerated sparse triangular system solving using CUDA,
-                  with a focus on parallel algorithms and performance
-                  optimization.
+                  GPU-accelerated sparse triangular system solver using CUDA,
+                  exploring parallel algorithms and performance optimization for
+                  sparse linear algebra.
                 </p>
               </div>
 
               <div className="project-footer">
                 <span>C++ · CUDA · GPU Computing</span>
-                <a href="https://drive.google.com/file/d/1L9WFoNtrKNnxXI4ZBROpEWr4vSroxkT1/view?usp=drive_link">
-                  Report ↗
+                <a
+                  href="https://drive.google.com/file/d/1L9WFoNtrKNnxXI4ZBROpEWr4vSroxkT1/view?usp=drive_link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Project →
                 </a>
               </div>
             </article>
@@ -94,19 +96,21 @@ function App() {
             <article className="project-card">
               <div>
                 <p className="project-number">02</p>
-
-                <h3>Brain Tumor Segmentation</h3>
-
+                <h3>Brain Tumor Segmentation (LGG)</h3>
                 <p>
                   Deep learning project using a U-Net architecture to segment
-                  brain tumors from medical imaging data.
+                  lower-grade glioma tumors from brain MRI images.
                 </p>
               </div>
 
               <div className="project-footer">
                 <span>Python · PyTorch · U-Net</span>
-                <a href="https://github.com/amoh909/Brain-Tumor-Segmentation-LGG">
-                  GitHub ↗
+                <a
+                  href="https://github.com/amoh909/Brain-Tumor-Segmentation-LGG"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Project →
                 </a>
               </div>
             </article>
@@ -116,14 +120,43 @@ function App() {
                 <p className="project-number">03</p>
                 <h3>MENA EconLens</h3>
                 <p>
-                  Full-stack economic intelligence platform featuring World Bank
-                  data ingestion, normalized database schemas, and linear
-                  regression forecasting panels.
+                  Full-stack economic intelligence dashboard for exploring and
+                  comparing macroeconomic indicators across MENA countries using
+                  World Bank data.
                 </p>
               </div>
+
               <div className="project-footer">
-                <span>React · Django · PostgreSQL</span>
-                <a href="https://github.com/amoh909/MENA-EconLens">GitHub ↗</a>
+                <span>Python · Django · React · TypeScript</span>
+                <a
+                  href="https://github.com/amoh909/MENA-EconLens"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Project →
+                </a>
+              </div>
+            </article>
+
+            <article className="project-card">
+              <div>
+                <p className="project-number">04</p>
+                <h3>Healthcare Provider Fraud Detection</h3>
+                <p>
+                  End-to-end machine learning system for detecting potentially
+                  fraudulent healthcare providers from Medicare claims data.
+                </p>
+              </div>
+
+              <div className="project-footer">
+                <span>Python · Scikit-learn · XGBoost</span>
+                <a
+                  href="https://github.com/amoh909/healthcare-provider-fraud-detection"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Project →
+                </a>
               </div>
             </article>
           </div>
@@ -139,7 +172,46 @@ function App() {
             <article className="experience-item">
               <div className="experience-header">
                 <div>
-                  <h3>Frontend Developer</h3>
+                  <h3>Software Engineering Intern</h3>
+                  <p className="experience-company">Quantum Trading Company</p>
+                </div>
+
+                <span className="experience-date">Aug 2026 - Present</span>
+              </div>
+
+              <ul
+                className="experience-description"
+                style={{ listStyleType: "disc", paddingLeft: "1.5rem" }}
+              >
+                <li>
+                  Developing custom Odoo modules in Python to automate the
+                  ingestion of supplier product data into inventory records for
+                  publication on the company's website.
+                </li>
+                <li>
+                  Implementing data extraction, transformation, validation, and
+                  database integration using Python, PostgreSQL, and XML within
+                  Odoo.
+                </li>
+                <li>
+                  Developing and debugging backend workflows and automation
+                  while using AI-assisted development tools to accelerate
+                  implementation and problem solving.
+                </li>
+              </ul>
+
+              <div className="experience-tech">
+                <span>Python</span>
+                <span>PostgreSQL</span>
+                <span>Odoo</span>
+                <span>XML</span>
+              </div>
+            </article>
+
+            <article className="experience-item">
+              <div className="experience-header">
+                <div>
+                  <h3>Frontend Development Intern</h3>
                   <p className="experience-company">
                     Ciatek IT & Software Solutions
                   </p>
@@ -148,11 +220,23 @@ function App() {
                 <span className="experience-date">Jun 2025 - Aug 2025</span>
               </div>
 
-              <p className="experience-description">
-                Built responsive web interfaces and contributed to frontend
-                development using React, TypeScript, Tailwind CSS, and
-                shadcn/ui.
-              </p>
+              <ul
+                className="experience-description"
+                style={{ listStyleType: "disc", paddingLeft: "1.5rem" }}
+              >
+                <li>
+                  Developed and customized React components and responsive web
+                  interfaces as part of hands-on frontend development projects.
+                </li>
+                <li>
+                  Worked with TypeScript, Tailwind CSS, MUI, and shadcn to build
+                  and style reusable UI components.
+                </li>
+                <li>
+                  Gained practical experience applying modern frontend
+                  development practices in a professional environment.
+                </li>
+              </ul>
 
               <div className="experience-tech">
                 <span>React</span>
